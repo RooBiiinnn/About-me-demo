@@ -1,0 +1,93 @@
+body {
+    background-color: lightblue;
+  }
+
+ 
+  .navi {
+	background-color:#000333;
+    
+    
+	
+}
+
+
+.navi ul {
+	
+    list-style: none;
+    margin: 0 auto;
+	
+	
+}
+
+
+.navi ul li {
+	padding: 10px;
+	border-radius: 5px;
+    float: left;
+    position: relative;
+    left: 15%;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+ 
+ 
+ 
+ 
+}
+
+.navi ul li:hover, .navi ul li:focus, .navi ul li:active {
+	background-color: #2D2F5D;
+	transition: background-color 300ms linear;
+    
+}
+
+.navi ul li a {
+	text-decoration: none;
+	color: aliceblue;
+	font-weight: bolder;
+	transition: font-size 0.2s;
+    
+}
+
+.navi ul li a:hover {
+
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+
+#bioimg {
+   width: 350px;
+   height: 450px;
+    transition: width 0.5s;
+    transition: height 0.5s;
+   float: right;
+
+}
+
+
+#bioimg:hover {
+    width: 400px;
+    height: 500px;
+}
+
+
+#biotext {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    transition: font-size 0.5s;
+    
+}
+
+#biotext:hover {
+    font-size: 25px;
+}
+
+#width {
+    width: 70%;
+}
